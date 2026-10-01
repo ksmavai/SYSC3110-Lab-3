@@ -27,6 +27,10 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
     }
+
+    public void clear(){
+        this.allBuddies.clear();
+    }
 }
 
 
